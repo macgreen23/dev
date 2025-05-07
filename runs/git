@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+sudo pacman -S git 
+sudo pacman -S github-cli
+
+git config --global user.name "Mikhalib Green"
+git config --global user.email "mikhalibgreen@gmail.com"
+
+
