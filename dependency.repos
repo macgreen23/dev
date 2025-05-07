@@ -1,0 +1,5 @@
+repositories:
+  env/.config/nvim:
+    type: git
+    url: https://github.com/macgreen23/nvim_config
+    version: dev
