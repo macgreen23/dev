@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+git config --global user.name "Mikhalib Green"
+git config --global user.email "mikhalibgreen@gmail.com"
+
