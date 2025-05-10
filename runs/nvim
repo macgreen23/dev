@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+cd ~
+git clone https://github.com/neovim/neovim
+cd neovim
+
+sudo apt install make cmake
+make CMAKE_BUILD_TYPE=RelWithDebInfo
+sudo make install
+
