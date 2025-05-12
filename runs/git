@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+sudo apt install gh
+
 git config --global user.name "Mikhalib Green"
 git config --global user.email "mikhalibgreen@gmail.com"
 
+gh auth login
