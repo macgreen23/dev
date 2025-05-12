@@ -104,5 +104,11 @@ export EDITOR="nvim"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias la="ls -a"
+alias cb="colcon build"
+alias rcb="rm -rf log build install"
+alias scb="source install/setup.zsh"
+
+export PATH=$PATH:~/.local/bin/
 
 PROMPT=$(echo $PROMPT | sed 's/%c%/%~%/')
+source /opt/ros/humble/setup.zsh
